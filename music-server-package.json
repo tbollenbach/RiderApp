@@ -1,0 +1,18 @@
+{
+  "name": "rider-app-music-server",
+  "version": "1.0.0",
+  "description": "Local music server for Rider App",
+  "main": "music-server.js",
+  "scripts": {
+    "start": "node music-server.js",
+    "dev": "nodemon music-server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+} 
